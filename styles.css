@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f7;
+    font-family: Poppins, sans-serif;
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+}
+
+.illustration {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8f5e9;
+}
+
+.illustration img {
+    width: 80%;
+}
+
+.form-container {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container h1 {
+    margin-bottom: 20px;
+    color: #4caf50;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.alternative-signup {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.alternative-signup p {
+    margin-bottom: 10px;
+    color: #777;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons img {
+    width: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    color: #777;
+}
+
+p a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .illustration {
+        display: none;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+}
+
+  #img{
+    background-position: 10px 10px;  /* Adjust position */
+    background-repeat: no-repeat;
+    padding-left: 30px;  /* Adjust padding for icon */
+    background-size: 15px 15px;  /* Adjust icon size */
+  }
